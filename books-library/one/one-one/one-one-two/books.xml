@@ -16,4 +16,20 @@
 			Standard
 		</name>
 	</book>
+	<book>
+		<author>
+			Tsvetan Petrov
+		</author>
+		<name>
+			Standard 2
+		</name>
+	</book>
+	<book>
+		<author>
+			Tsvetan Petrov
+		</author>
+		<name>
+			Standard 22
+		</name>
+	</book>
 </books>

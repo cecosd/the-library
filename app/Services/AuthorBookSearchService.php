@@ -28,7 +28,7 @@ class AuthorBookSearchService {
     {
         $getAll = $this->connection->prepare($this->baseQuery());
         $getAll->execute();
-        return $getAll->fetchAll();
+        return $getAll->fetchAll(PDO::FETCH_ASSOC);
     }
 
     public function getAuthor(string $authorName)
