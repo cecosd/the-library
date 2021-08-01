@@ -14,8 +14,6 @@ foreach ($xmlParser->parseFiles() as $authorName => $authorBooks) {
 
     $authorId = rand(1, 1000000);
 
-    $addAuthorQuery->execute();
-
     $addAuthorQuery = $db->getConnection()->prepare("INSERT INTO authors (author_id, author_name) VALUES ($authorId, '$authorName')");
     $addAuthorQuery->execute();
 
