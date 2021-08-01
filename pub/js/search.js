@@ -27,13 +27,13 @@ const searchRequest = () => {
 
             if(searchResults.length == 0) {
                 let searchItemAuthorEl = document.createElement('div');
-                searchItemAuthorEl.className = 'search-result-item';
+                searchItemAuthorEl.className = 'search-result-item animate';
                 searchItemAuthorEl.innerText = 'No results found';
                 resultHolder.appendChild(searchItemAuthorEl)
             } else {
                 for(let i = 0; i < searchResults.length; i++ ) {
                     let newNode = document.createElement('div');
-                    newNode.className = 'search-result-item';
+                    newNode.className = 'search-result-item animate';
     
                     let searchItemAuthorEl = document.createElement('div');
                     searchItemAuthorEl.className = 'search-result-author-name';
