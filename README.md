@@ -2,7 +2,7 @@ The project demonstrates a simple custom made PHP OOP framework.
 
 The problem that this project solves is to:
 - Lookup into a folder called books-library and collect all XML files.
-- The XML files are then inserted int a PosgresSQL database
+- The XML files are then inserted int a PosgreSQL database
 - When the project is started, the users can search the database by Author Name
 
 # Project Structure
