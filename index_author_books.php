@@ -1,5 +1,7 @@
 <?php
 
+// Simple CRON like file for mapping all author books XML files
+
 require './app/bootstrap.php';
 
 $xmlScanner = new \App\Utils\XmlScanner(dirname(__FILE__) . '/books-library');
